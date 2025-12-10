@@ -1,0 +1,9 @@
+path: ./data
+train: images/train
+val: images/val
+names:
+  0: adidas_ozelia_cream_blue
+  1: new_balance_550_grey
+  2: nike_blazer_mid77_darkblue
+  3: nike_dunk_low_purple_court
+  4: nike_pogo_plus_japanese_roots

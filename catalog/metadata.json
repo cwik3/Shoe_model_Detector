@@ -1,0 +1,177 @@
+[
+  {
+    "image_path": "img/clean/adidas_ozelia_cream_blue/aoclean1.jpeg",
+    "class_name": "adidas_ozelia_cream_blue",
+    "model_name": "aoclean1"
+  },
+  {
+    "image_path": "img/clean/adidas_ozelia_cream_blue/aoclean4.jpg",
+    "class_name": "adidas_ozelia_cream_blue",
+    "model_name": "aoclean4"
+  },
+  {
+    "image_path": "img/clean/adidas_ozelia_cream_blue/clean5oa.jpg",
+    "class_name": "adidas_ozelia_cream_blue",
+    "model_name": "clean5oa"
+  },
+  {
+    "image_path": "img/clean/adidas_ozelia_cream_blue/oa6clean.jpg",
+    "class_name": "adidas_ozelia_cream_blue",
+    "model_name": "oa6clean"
+  },
+  {
+    "image_path": "img/clean/adidas_ozelia_cream_blue/oz5_bca3f773.jpg",
+    "class_name": "adidas_ozelia_cream_blue",
+    "model_name": "oz5_bca3f773"
+  },
+  {
+    "image_path": "img/clean/adidas_ozelia_cream_blue/oz7_f00e13a2.png",
+    "class_name": "adidas_ozelia_cream_blue",
+    "model_name": "oz7_f00e13a2"
+  },
+  {
+    "image_path": "img/clean/new_balance_550_grey/nb2clean.jpg",
+    "class_name": "new_balance_550_grey",
+    "model_name": "nb2clean"
+  },
+  {
+    "image_path": "img/clean/new_balance_550_grey/nb3clean.jpg",
+    "class_name": "new_balance_550_grey",
+    "model_name": "nb3clean"
+  },
+  {
+    "image_path": "img/clean/new_balance_550_grey/nb4clean.jpg",
+    "class_name": "new_balance_550_grey",
+    "model_name": "nb4clean"
+  },
+  {
+    "image_path": "img/clean/new_balance_550_grey/nb5clean.jpg",
+    "class_name": "new_balance_550_grey",
+    "model_name": "nb5clean"
+  },
+  {
+    "image_path": "img/clean/new_balance_550_grey/nb6clean.jpg",
+    "class_name": "new_balance_550_grey",
+    "model_name": "nb6clean"
+  },
+  {
+    "image_path": "img/clean/new_balance_550_grey/nb7clean.jpg",
+    "class_name": "new_balance_550_grey",
+    "model_name": "nb7clean"
+  },
+  {
+    "image_path": "img/clean/new_balance_550_grey/nbclean1.jpg",
+    "class_name": "new_balance_550_grey",
+    "model_name": "nbclean1"
+  },
+  {
+    "image_path": "img/clean/nike_blazer_mid77_darkblue/blazer1clean.jpg",
+    "class_name": "nike_blazer_mid77_darkblue",
+    "model_name": "blazer1clean"
+  },
+  {
+    "image_path": "img/clean/nike_blazer_mid77_darkblue/blazer2clean.jpg",
+    "class_name": "nike_blazer_mid77_darkblue",
+    "model_name": "blazer2clean"
+  },
+  {
+    "image_path": "img/clean/nike_blazer_mid77_darkblue/blazer3clean.jpg",
+    "class_name": "nike_blazer_mid77_darkblue",
+    "model_name": "blazer3clean"
+  },
+  {
+    "image_path": "img/clean/nike_blazer_mid77_darkblue/blazer4 clean.jpg",
+    "class_name": "nike_blazer_mid77_darkblue",
+    "model_name": "blazer4 clean"
+  },
+  {
+    "image_path": "img/clean/nike_blazer_mid77_darkblue/blazer6clean.jpg",
+    "class_name": "nike_blazer_mid77_darkblue",
+    "model_name": "blazer6clean"
+  },
+  {
+    "image_path": "img/clean/nike_blazer_mid77_darkblue/blazer8clean.jpg",
+    "class_name": "nike_blazer_mid77_darkblue",
+    "model_name": "blazer8clean"
+  },
+  {
+    "image_path": "img/clean/nike_blazer_mid77_darkblue/clean5clean.jpg",
+    "class_name": "nike_blazer_mid77_darkblue",
+    "model_name": "clean5clean"
+  },
+  {
+    "image_path": "img/clean/nike_blazer_mid77_darkblue/clean7blazer.jpg",
+    "class_name": "nike_blazer_mid77_darkblue",
+    "model_name": "clean7blazer"
+  },
+  {
+    "image_path": "img/clean/nike_dunk_low_purple_court/cp2clean.jpg",
+    "class_name": "nike_dunk_low_purple_court",
+    "model_name": "cp2clean"
+  },
+  {
+    "image_path": "img/clean/nike_dunk_low_purple_court/cp3clean.jpg",
+    "class_name": "nike_dunk_low_purple_court",
+    "model_name": "cp3clean"
+  },
+  {
+    "image_path": "img/clean/nike_dunk_low_purple_court/cp4clean.png",
+    "class_name": "nike_dunk_low_purple_court",
+    "model_name": "cp4clean"
+  },
+  {
+    "image_path": "img/clean/nike_dunk_low_purple_court/cp5clean.jpg",
+    "class_name": "nike_dunk_low_purple_court",
+    "model_name": "cp5clean"
+  },
+  {
+    "image_path": "img/clean/nike_dunk_low_purple_court/cp6clean.jpg",
+    "class_name": "nike_dunk_low_purple_court",
+    "model_name": "cp6clean"
+  },
+  {
+    "image_path": "img/clean/nike_dunk_low_purple_court/cp7clean.jpg",
+    "class_name": "nike_dunk_low_purple_court",
+    "model_name": "cp7clean"
+  },
+  {
+    "image_path": "img/clean/nike_dunk_low_purple_court/cpclean1.jpg",
+    "class_name": "nike_dunk_low_purple_court",
+    "model_name": "cpclean1"
+  },
+  {
+    "image_path": "img/clean/nike_pogo_plus_japanese_roots/pogo1clean.jpg",
+    "class_name": "nike_pogo_plus_japanese_roots",
+    "model_name": "pogo1clean"
+  },
+  {
+    "image_path": "img/clean/nike_pogo_plus_japanese_roots/pogo2clean.jpg",
+    "class_name": "nike_pogo_plus_japanese_roots",
+    "model_name": "pogo2clean"
+  },
+  {
+    "image_path": "img/clean/nike_pogo_plus_japanese_roots/pogo3clean.jpg",
+    "class_name": "nike_pogo_plus_japanese_roots",
+    "model_name": "pogo3clean"
+  },
+  {
+    "image_path": "img/clean/nike_pogo_plus_japanese_roots/pogo4clean.jpg",
+    "class_name": "nike_pogo_plus_japanese_roots",
+    "model_name": "pogo4clean"
+  },
+  {
+    "image_path": "img/clean/nike_pogo_plus_japanese_roots/pogo5clean.jpg",
+    "class_name": "nike_pogo_plus_japanese_roots",
+    "model_name": "pogo5clean"
+  },
+  {
+    "image_path": "img/clean/nike_pogo_plus_japanese_roots/pogo6clean.jpg",
+    "class_name": "nike_pogo_plus_japanese_roots",
+    "model_name": "pogo6clean"
+  },
+  {
+    "image_path": "img/clean/nike_pogo_plus_japanese_roots/pogo7clean.jpg",
+    "class_name": "nike_pogo_plus_japanese_roots",
+    "model_name": "pogo7clean"
+  }
+]

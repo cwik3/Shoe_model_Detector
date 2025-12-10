@@ -1,0 +1,29 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "name": "adidas_ozelia_cream_blue"
+    },
+    {
+      "id": 1,
+      "name": "new_balance_550_grey"
+    },
+    {
+      "id": 2,
+      "name": "nike_blazer_mid77_darkblue"
+    },
+    {
+      "id": 3,
+      "name": "nike_dunk_low_purple_court"
+    },
+    {
+      "id": 4,
+      "name": "nike_pogo_plus_japanese_roots"
+    }
+  ],
+  "info": {
+    "year": 2025,
+    "version": "1.0",
+    "contributor": "Label Studio"
+  }
+}
