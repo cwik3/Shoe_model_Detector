@@ -9,11 +9,25 @@ from tools.smoothing import StableLabel
 from tools.retrieval import classify_with_margin, l2_normalize
 import os, csv
 
+
 LOG_PATH = "Runs/debug/retrieval_log.csv"
 os.makedirs(os.path.dirname(LOG_PATH), exist_ok=True)
 if not os.path.exists(LOG_PATH):
     with open(LOG_PATH, "w", newline="") as f:
         csv.writer(f).writerow(["frame","det_conf","s1","s2","margin","label","unknown"])
+
+# --- MOCK PRICE DATABASE (Final Implementation) ---
+# Simulates API response for the demo
+PRICE_DB = {
+    "nike_dunk_low_purple_court": "$110 - $140",
+    "adidas_ozelia_cream_blue": "$80 - $100",
+    "new_balance_550_grey": "$120 - $160",
+    "nike_blazer_mid77_darkblue": "$90 - $110",
+    "nike_pogo_plus_japanese_roots": "$75 - $95"
+}
+
+def get_price(label):
+    return PRICE_DB.get(label, "Check StockX")
 
 # ---- CONFIG ----
 YOLO_WEIGHTS = Path("Runs/detect/train2/weights/best.pt")
@@ -83,6 +97,8 @@ def embed_pil(pil_img):
         z = z / z.norm(dim=-1, keepdim=True)        # L2 normalize
         return z.cpu().numpy().astype("float32")[0] # -> [D]
 
+
+
 # ------------- camera -------------
 cv2.namedWindow("ShoeCam (q quit, +/- conf, r toggle retrieval)", cv2.WINDOW_NORMAL)
 cv2.resizeWindow("ShoeCam (q quit, +/- conf, r toggle retrieval)", 960, 540)
@@ -99,7 +115,7 @@ print("[info] press 'q' to quit, '+' / '-' to change confidence, 'r' to toggle r
 last_t = time.time()
 frame_i = 0
 
-# ---- temporal smoothing OUTSIDE the loop (non-blocking) ----
+#
 track_smoothers = defaultdict(lambda: StableLabel(
     maxlen=15, show_thr=0.0, hide_thr=0.0, stick_frames=8
 ))
@@ -196,14 +212,26 @@ while True:
 
         if stable is not None:
             stable_label, stable_conf = stable
-            # similarity badge from s1_dbg
+
+            # 1. Similarity Badge
             if s1_dbg is None:
                 badge = ""
             else:
                 badge = "OK" if s1_dbg >= 0.45 else ("~" if s1_dbg >= SIM_BADGE_THR else "LOW")
                 badge = f" {badge}"
 
-            label_text += f" | {stable_label} ({stable_conf:.2f}{badge})"
+            # 2. Price Lookup (Instant Mock)
+            price_text = ""
+            # Only show price if we are fairly confident (> 0.40)
+            if stable_conf > 0.02:
+                price_text = f" | {get_price(stable_label)}"
+            else:
+                # If unsure, show ??? and turn box Orange
+                price_text = " | ???"
+                color_box = (0, 165, 255)
+
+                # 3. Build Final Label
+            label_text += f" | {stable_label} ({stable_conf:.2f}{badge}){price_text}"
 
             (tw, th), _ = cv2.getTextSize(label_text, cv2.FONT_HERSHEY_SIMPLEX, 0.5, 1)
             y_txt = max(0, y1 - 8)
