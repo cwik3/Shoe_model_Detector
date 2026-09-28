@@ -8,3 +8,5 @@
   <img src="https://github.com/cwik3/Shoe_model_Detector/blob/master/model3.png" width="48%" />
   <img src="https://github.com/cwik3/Shoe_model_Detector/blob/master/model4.jpg" width="48%" />
 </p>
+
+# PS with FAISS and CLIP it is easily possible to extend the model recognition list
